@@ -12,6 +12,7 @@ int contarLetras (char palavra[]){
     return contador;
 }
 
+//da para fazer com while(fgets..... !NULL)
 void lerLinha (char palavra[]){
     fgets (palavra, 100, stdin);
     int tamanho = contarLetras(palavra);
